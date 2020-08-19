@@ -1,0 +1,27 @@
+## 概要
+
+MFクラウドで今月の残業申請を一括申請するスクリプト。
+
+## 環境構築
+
+1. node moduleのインストール
+
+```sh
+yarn
+```
+
+2. ルート直下に `env.js` を追加
+
+```js
+export const COMPANY_ID = "YOUR_COMPANY_ID"; 
+export const EMAIL = "YOUR_ACCOUNT_EMAIL";
+export const PASSWORD = "YOUR_ACCOUNT_PASSWORD";
+export const OVERTIME = "01:00"; // 残業時間 HH:mm
+export const COMMENT = "YOUR_COMMENT"; // 申請コメント
+```
+
+## 使い方
+
+```sh
+yarn stamp
+```
