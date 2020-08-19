@@ -10,7 +10,7 @@ MFクラウドで今月の残業申請を一括申請するスクリプト。
 yarn
 ```
 
-2. ルート直下に `env.js` を追加
+2. **ルート直下** に以下の内容で `env.js` を追加
 
 ```js
 export const COMPANY_ID = "YOUR_COMPANY_ID"; 
