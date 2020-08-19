@@ -4,8 +4,12 @@
   "main": "index.js",
   "author": "kentaro_matsutani <kentaro_matsutani@bita.jp>",
   "license": "MIT",
+  "scripts": {
+    "stamp": "node src/stamp.js"
+  },
   "dependencies": {
     "prettier": "^2.0.5",
     "puppeteer": "^5.2.1"
-  }
+  },
+  "type": "module"
 }
