@@ -1,0 +1,11 @@
+{
+  "name": "overtime-stamp",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "kentaro_matsutani <kentaro_matsutani@bita.jp>",
+  "license": "MIT",
+  "dependencies": {
+    "prettier": "^2.0.5",
+    "puppeteer": "^5.2.1"
+  }
+}
