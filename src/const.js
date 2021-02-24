@@ -3,6 +3,7 @@ export const BASE_URL = "https://attendance.moneyforward.com";
 export const PATH = {
   SIGN_IN: `${BASE_URL}/employee_session/new`,
   STAMP_TABLE: `${BASE_URL}/my_page/attendances`,
+  MY_PAGE: `${BASE_URL}/my_page`,
 };
 
 export const ELEMENTS = {
